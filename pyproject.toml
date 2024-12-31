@@ -1,0 +1,22 @@
+[project]
+name = "m2b-code-interpreter"
+version = "0.1.0"
+
+description = "Running E2B-style Sandbox on Modal"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Linux, MacOS",
+]
+dependencies = [
+    "modal>=0.70.3",
+    "pytest>=8.3.4",
+    "setuptools>=75.6.0",
+]
+
+
+[build-system]
+requires = ["setuptools>=75.6.0"]
+build-backend = "setuptools.build_meta"
